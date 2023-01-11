@@ -30,6 +30,7 @@
     outline:none;
     background-color: inherit;
     color: white;
+    cursor:pointer;
 }
 .lang select option{
     background-color: black;
@@ -46,4 +47,5 @@
     border:none;
     padding:5px 15px;
     border-radius: 5px;
+    cursor:pointer;
 }

@@ -1,0 +1,22 @@
+.outer{
+    display: flex;
+    background:inherit;
+    margin:20px 0px;
+}
+
+.outer input{
+    font-size:15px;
+    width:520px;
+    background-color: white;
+    padding:18px;
+    border:none;
+    outline: none;
+}
+
+.outer button{
+    background-color: #E50914;
+    border: none;
+    font-size:25px;
+    padding:10px;
+    cursor:pointer;
+}

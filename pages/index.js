@@ -8,15 +8,22 @@ import Section2right from '../components/page1/Section2right'
 import Section3 from '../components/page1/Section3'
 import Footer from '../components/Footer'
 
-
 export default function Home() {
   return (
     <>
       <Section1/>
-      <Section2left />
-      <Section2right />
-      <Section2left />
-      <Section2right />
+      <div className={styles.thickhrline}></div>
+      <Section2left head1="Enjoy on your TV." head2="Watch on smart TVs, playstation, Xbox, chromecast ,Apple TV, Blu-ray players and more." />
+
+      <div className={styles.thickhrline}></div>
+      <Section2right head1="Enjoy on your TV." head2="Watch on smart TVs, playstation, Xbox, chromecast ,Apple TV, Blu-ray players and more." />
+
+      <div  className={styles.thickhrline}></div>
+      <Section2left head1="Enjoy on your TV." head2="Watch on smart TVs, playstation, Xbox, chromecast ,Apple TV, Blu-ray players and more." />
+
+      <div  className={styles.thickhrline}></div>
+      <Section2right head1="Enjoy on your TV." head2="Watch on smart TVs, playstation, Xbox, chromecast ,Apple TV, Blu-ray players and more." />
+
       <Section3 />
       <Footer />
     </>

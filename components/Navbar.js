@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import logo from '../Netflix-images/logo.png'
 import styles from './Navbar.module.css';
+import Link from 'next/link';
 export default function Navbar() {
   return (
     <div className={styles.outer}>
@@ -18,7 +19,8 @@ export default function Navbar() {
                 <option value='es'>Hindi</option>
             </select>
         </button>
-        <button className={styles.signin}>Sign In</button>
+        <Link href='/signin'><button className={styles.signin}>Sign In</button></Link>
+        
       </div>
     </div>
   );

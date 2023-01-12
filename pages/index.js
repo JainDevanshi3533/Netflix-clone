@@ -25,6 +25,7 @@ export default function Home() {
       <Section2right head1="Enjoy on your TV." head2="Watch on smart TVs, playstation, Xbox, chromecast ,Apple TV, Blu-ray players and more." />
 
       <Section3 />
+      <div  className={styles.thickhrline}></div>
       <Footer />
     </>
   )

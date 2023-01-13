@@ -13,3 +13,110 @@
     background-color: rgba(0,0,0,0.326);
 }
 
+.container{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: rgba(0,0,0,0.714);
+    width: 500px;
+    padding: 70px;
+    border-radius: 5px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form form input{
+    padding:15px;
+    margin:10px 0px;
+    border-radius: 5px;
+    background-color: rgb(41,41,41);
+    font-size: 15px;
+    border:none;
+    color:white
+}
+
+.form form input:focus{
+    outline:none;
+    border:1px solid orange;
+}
+
+.form form button{
+    background-color: #E50914;font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px 10px 0px;
+}
+
+.forms1{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forms1 p{
+    font-size: 13px;
+    color: rgb(168,168,168);
+}
+
+.forms1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.forms1 label{
+    font-size: 14px;
+    color: rgb(168,168,168);
+}
+
+.forms1 div{
+    display: flex;
+    align-items: center;
+
+}
+
+.forms2 h1{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgb(168,168,168);
+    margin:10px 0px;
+}
+
+.forms2 h1 span{
+    color:white;
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+.forms2 h1 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.forms2 p{
+    font-size: 14px;
+    font-weight: 300;
+    color:rgb(185,185,185);
+    margin:10px 0px;
+}
+
+.forms2 p span{
+    color:rgb(35,138,255);
+}
+
+.forms2 p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

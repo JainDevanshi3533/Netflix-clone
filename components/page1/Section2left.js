@@ -11,7 +11,7 @@ const Section2left = ({ head1, head2 }) => {
         </div>
       </div>
       <div className={styles.right}>
-        {console.log(logo)}
+        {/* {console.log(logo)} */}
         <img src={logo.src}/>
       </div>
     </div>
